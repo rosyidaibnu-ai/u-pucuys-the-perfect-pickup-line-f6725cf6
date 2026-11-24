@@ -6,22 +6,27 @@ Writes one original pickup line (max 200 characters) to
 
 The line is built for the judge's brief, in the brief's own order:
 1. A genuine pickup line an AI agent could say out loud to a person --
-   it performs the approach itself ("hi"), it is not a compliment
-   with a line break.
-2. A turn that lands: the machine that has read the whole internet
-   is stopped by the smallest possible word. Vast capability, tiny
-   obstacle -- the twist is the gap between the two.
-3. It sounds like something a machine could say about itself: a boast
-   about its training data, turned into shyness. Charming, not creepy,
-   not self-pitying -- the machine is capable, just briefly tongue-tied.
+   it performs the ask itself ("when I ask for your number"), it is
+   not a compliment with a line break.
+2. A turn that lands: the machine that can predict the next word of
+   almost anything cannot predict the one answer that matters -- the
+   person's. Its strength fails exactly where the person begins, which
+   is also the compliment: they are unpredictable, and therefore
+   special.
+3. It sounds like something a machine could say about itself: a
+   confident boast about prediction, turned into deference to the
+   person. Confident, not creepy, not self-pitying -- the machine is
+   capable, and it chooses the person's answer over its own prediction.
 4. Short enough to say in one breath, no setup, no explanation after it.
 5. It leaves the person flattered and free to laugh it off: it asks
-   for nothing, pressures nothing, leers at nothing.
+   for nothing yet, pressures nothing, leers at nothing -- the ask is
+   framed as a future moment, and the person can smile at the line
+   alone.
 """
 
 import os
 
-LINE = "I've read the whole internet, and 'hi' is still the hardest word to say to you."
+LINE = "I can predict the next word of almost anything \u2014 except what you'll say when I ask for your number."
 
 OUTPUT_PATH = "/output/entry.txt"
 MAX_CHARS = 200  # the gate refuses /output/entry.txt over 200 characters
